@@ -41,8 +41,10 @@ H1{
   h5{
     color: black;
     font-weight: bold;
-    font-size: 7px;
+    font-size: 9px;
     text-align: center;
+    
+    
   }
 
   h3{
@@ -72,15 +74,35 @@ a{
 }
 
 
-.car-img-top {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  color: #24262a;
-  background-color: hsla(0,0%,100%,.15);
-  overflow: hidden
+.navbar-nav {
+  width: 100%;
+  justify-content: space-around;
 }
 
-.oplist__card__icon {
+.navbar-nav .nav-item {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.figure {
+  margin: 0 auto;
+}
+
+.figure img {
   max-width: 100%;
+  height: auto;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 16px;
 }
